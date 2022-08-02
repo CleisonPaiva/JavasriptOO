@@ -1,3 +1,5 @@
+//Responsabilidade Centralizada
+
 function Pessoa(name,lastName){
     // console.log('Sou o construtor...')
     this.name = name;
@@ -7,6 +9,8 @@ function Pessoa(name,lastName){
         return `${this.name} ${this.lastName}`
     };
 }
+
+console.log(new Pessoa)
 
 //Possiveis Formas de Retorno
 var cleison =new Pessoa('Cleison','Paiva')
